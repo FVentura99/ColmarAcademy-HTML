@@ -50,7 +50,7 @@ a:hover {
     align-items: center;
     gap: 40px;
     padding: 32px 24px;
-    background-color: gray;
+    background-color: #acacac;
 }
 
 .latin img {
@@ -111,7 +111,7 @@ a:hover {
 
 
 .Practice-tab {
-  flex: 40%; /* 40% of container width */
+  flex: 40%;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -134,7 +134,7 @@ a:hover {
   width: 35%;
   object-fit: cover;
   border-radius: 4px;
-  padding: 0; /* remove extra padding on image */
+  padding: 0;
 }
 
 .tab-text {
@@ -146,4 +146,50 @@ a:hover {
   text-decoration: none;
   color: blue;
   font-weight: bold;
+}
+
+
+.start-learning {
+  background-color: #acacac;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+.start-header h1 {
+  margin-bottom: 30px;
+}
+
+
+.learning-block-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto); 
+  justify-content: center;                 
+  gap: 20px;                               
+}
+
+
+.learning-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 8px;
+  background-color: white;
+  width: 400px; 
+  text-align: center;
+}
+
+
+.learning-block img {
+  width: 400px;   
+  height: auto;   
+  display: block;
+  border-radius: 4px;
+}
+
+
+.learning-block-text h2,
+.learning-block-text h4 {
+  margin: 5px 0;
 }
