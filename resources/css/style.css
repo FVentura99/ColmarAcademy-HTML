@@ -193,3 +193,64 @@ a:hover {
 .learning-block-text h4 {
   margin: 5px 0;
 }
+
+.exhibit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.exhibit-header {
+  width: 100%;
+  text-align: center;
+  margin: 32px 0;
+}
+
+
+.exhibit-video {
+  flex: 0 0 60%;
+  max-width: 60%;
+  box-sizing: border-box;
+  padding-right: 24px;
+}
+.exhibit-video video {
+  width: 100%;
+  display: block;
+}
+
+.Thesis-right {
+  flex: 0 0 40%;
+  max-width: 40%;
+  box-sizing: border-box;
+}
+
+.Thesis-block {
+  border: 2px solid #000;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.Thesis-block img {
+  width: 35%;   
+  height: auto;
+  display: block;
+  margin: 16px;
+}
+
+.Thesis-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 2px solid #000;
+}
+
+.footer-content a {
+  color: #000;
+}
